@@ -1,0 +1,152 @@
+
+.navigation {
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    background:whitesmoke;
+    height:150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.arrow {
+    border:none;
+    background:rgb(250, 73, 73);
+    color:white;
+    min-width:100px;
+    border-radius:50px;
+}
+.arrow_prev:before {
+    content:'< '
+}
+.arrow_next:after {
+    content:' >'
+}
+.filters {
+    text-align:center;
+}
+select {
+    background:black;
+    color:white;
+    border:none;
+    border-radius:10px;
+    width:100px;
+    padding:5px 5px;
+}
+select option {
+    border:none;
+    border-radius:10px;
+}
+
+.mainPokedex {
+      /* background:rgb(250, 73, 73); */
+
+}
+.pokedex {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.pokemon {
+    width:250px;
+    height:250px;
+    margin:20px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    background: whitesmoke;
+    border-radius:10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+.pokemon-name {
+    text-transform:capitalize;
+}
+
+/*Types*/
+.pokemon-types {
+    /* display:flex; */
+
+}
+.types {
+    text-align: center;
+    margin-top:10px;
+}
+.pokemon-types span {
+    padding:2px 15px;
+    border-radius:30px;
+    margin:0 5px;
+    
+}
+.pokemon-types .fire {
+    background:rgb(255, 103, 15);
+    color:white;
+}
+.pokemon-types .water {
+    background:rgb(20, 20, 190);
+    color:white;
+}
+.pokemon-types .grass {
+    background:rgb(21, 187, 21);
+    color:white;
+}
+.pokemon-types .poison {
+    background:purple;
+    color:white
+}
+.pokemon-types .bug {
+    background: rgb(18, 63, 4);
+    color:white;
+}
+.pokemon-types .flying {
+    background:rgb(113, 113, 255);
+    color:white;
+}
+.pokemon-types .normal {
+    background:lightgray;
+    color:black;
+}
+.pokemon-types .electric {
+    background:yellow;
+    /* color:white; */
+}
+.pokemon-types .ground {
+    background:rgb(124, 124, 1);
+    color:white;
+}
+.pokemon-types .fairy {
+    background:pink
+}
+.pokemon-types .fighting {
+    background:brown;
+    color:white;
+}
+.pokemon-types .psychic {
+    background:rgb(235, 86, 110);
+    color:white;
+}
+.pokemon-types .rock {
+    background:rgb(145, 86, 9);
+    color:white;
+}
+.pokemon-types .steel{
+    background:grey;
+    color:white;
+}
+.pokemon-types .ice {
+    background:lightblue;
+}
+.pokemon-types .ghost {
+    background:rgb(1, 7, 99);
+    color:white
+}
+.pokemon-types .dragon {
+    background:rgb(67, 0, 155);
+    color:white;
+}
+.pokemon-types .dark {
+    background:black;
+    color:white;
+}
